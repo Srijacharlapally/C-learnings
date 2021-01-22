@@ -1,0 +1,40 @@
+Variable: A Variable is the name given to the memory location, where the data value of the variable is stored.Unlike constant,the value of a variable can be changed during execution.A Variable name must be chosen in such a way that it is easily readable and understandable.
+C# Data type:C# is a strongly-typed language.It means we must declare the type of a variable that indicates the kind of values it is going to store, such as integer, float, decimal, text,etc.
+example:
+int myNum = 5; -  stores intrgers (whole numbers),without decimals, such as 123 or - 123
+double myDoubleNum = 5.99D;  - stores floating point numbers, with decimals, such as 19.99 or- 19.99
+char MYLetter = 'D';  - stores single characters,such as 'a' or 'B' char values are surrounded by single quotes 
+string myText = "Hello";  - stores text, such as "Hello World". string values are surrounded by double quotes
+bool myBool = true;  - stores values with two states: true or false
+
+Intialization During Variable Declaration
+Syntax 
+data_type variable_name=value;
+Example
+int average=50;
+char name=srija;
+
+IntialisationUsing an Assignment Stayement 
+Syntax 
+Example
+Average=50;
+name=srija;
+In C#, initial values to variables can also be assigned as 
+int p,q.r;
+This statement declares THREE Variables.
+int X=5,y=10;
+This statement declares and initializes integer variables.
+Example program:
+class Example 
+{
+  int p=15;
+  static int q=25;
+  public static void main()
+     {
+       int p=150;
+       int q=250;
+       console.writeLine(p);          //Local variable 
+       console.writeLine(q);          //Local variable 
+       }
+       
+     
