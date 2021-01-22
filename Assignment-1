@@ -1,0 +1,32 @@
+Chocolate-wrapper program
+
+using System;
+class Assignment1 
+{
+	static int calculate(int choc, int wrap)
+	{
+	
+		if (choc<wrap)
+			return 0;
+	
+		int newChoc=choc/wrap;
+		int k=2;
+		int r=newChoc*k;
+		return r+calculate(r+choc%wrap, wrap);
+	}
+
+	static int totalChoco(int money, int price, int wrap)
+	{
+		
+		int choc=money/price;
+		return choc+calculate(choc, wrap);
+	}
+	public static void Main ()
+	{
+		int money=15;
+		int price=2;
+		int wrap=3;
+		
+		Console.WriteLine(totalChoco(money, price, wrap));
+	}
+}
