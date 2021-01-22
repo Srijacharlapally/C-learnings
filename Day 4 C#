@@ -1,0 +1,42 @@
+C# Type Casting: Type casting is when you assign a value of one data type to another data type.In C# there are two types of casting.
+Implicit Casting : char>int>long>float>double
+Explicit Casting:  double>float>long>int>char
+Implicit Casting Example:
+using system;
+namespace  srija
+{
+  class program
+  {
+    static void main(string[] args)
+    {
+    int myInt = 9;
+    double myDouble = myInt;
+    
+    console.writeLine(myInt);
+    console.writeLine(myDouble);
+    }
+  }
+ }
+ 
+ Explicit Casting Example:
+ using system;
+ namespace  srija 
+ {
+   class program 
+   {
+     static void main(string[] args)
+     {
+        double myDouble = 9.78;
+        int myInt = (int) myDouble;
+        
+        console.writeLine(myDouble);
+        console.writeLine(myInt);
+      }
+    }
+   }
+   
+   C# User Input:
+   console.writeLine() is used to output (print) values.
+   console.ReadLine() to get user input
+   
+   
