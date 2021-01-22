@@ -1,0 +1,23 @@
+C# Intro:
+    C# is an object-oriented computer programing language developed by microsoft company.It is as "C Sharp". It is simple and efficient language that supports the features of .Net framework. It is derived from C and C++ and can be used for developing web applications.It is also suitable for developing robust and realiable elements\components capable of developing real-world applications.
+C# Syntax:
+using system
+class classname 
+{
+  static void main()
+  {
+    // content....
+   }
+ }
+
+
+C# Comments:
+
+single_line_doc_comment 
+     : '///' input_character*
+     :
+     
+delimited_doc_comment
+     : '/**' delimited_comment_section*aster
+     :
+ 
