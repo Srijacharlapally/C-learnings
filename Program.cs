@@ -6,8 +6,20 @@ namespace myproject
     {
         static void Main(string[] args)
         {
-            double Num = 30.33;
-            Console.WriteLine(Num);  
+         int a = 90;
+         char s = 'c';
+         float d = 20.1f; 
+         double num = 30.020;
+         string bol = "srija"; 
+         Boolean name = true;
+    
+         Console.WriteLine(a);
+         Console.WriteLine(s);
+         Console.WriteLine(d);
+         Console.WriteLine(num);
+         Console.WriteLine(bol);
+         Console.WriteLine(name);
+           
         }
     }
 }
