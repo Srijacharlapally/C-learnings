@@ -1,0 +1,17 @@
+using System;
+
+namespace myproject
+{
+    class MynewClass
+{
+    public string Concatenation()
+    {
+        string s1 = "Ram ";
+        string s2 = "is a ";
+        string s3 = "choclate boy";
+        string s4 = s1+s2+s3;
+        return s4;
+    }
+}
+}
+
