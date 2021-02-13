@@ -1,0 +1,52 @@
+using System;
+
+namespace myproject
+{
+    class Webinar
+    {   
+        int num1=18;
+        int num2=10; 
+        int results;      
+        void Add()
+        {
+            results=num1 + num2;
+            Console.WriteLine(results);
+            //Console.ReadLine();
+        }   
+        void subtract ()
+        {
+             results=num1 - num2;
+            Console.WriteLine(results);
+            //Console.ReadLine();
+        }
+        void multiplication ()
+        {
+            results=num1 * num2;
+            Console.WriteLine(results);
+           // Console.ReadLine();
+        }
+        void quotient ()
+        {
+            results=num1 / num2;
+            Console.WriteLine(results);
+            //Console.ReadLine();
+        }
+        void modulus ()
+        {
+            results=num1 % num2;
+            Console.WriteLine(results);
+            //Console.ReadLine ();
+        }
+         static void Main(string[] args)
+        {
+            Webinar ch1=new Webinar();
+                                                
+            ch1.Add();
+            ch1.subtract();
+            ch1.multiplication();
+            ch1.quotient();
+            ch1.modulus();
+
+        }
+    }
+}
