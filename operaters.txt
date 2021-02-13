@@ -1,0 +1,63 @@
+using System;
+
+namespace myproject
+{
+    class Languages
+    {
+        static void Main(string[] args)
+        {
+            int num1=15;
+            int num2=16;
+            if (num1 == num2)
+            {
+                Console.WriteLine("True");
+            }
+            else 
+            {
+                Console.WriteLine("False");
+            }
+            if (num1 != num2)
+            {
+                Console.WriteLine("True");
+            }
+            else
+            {
+                Console.WriteLine("False");
+            }
+            if (num1 > num2)
+            {
+                Console.WriteLine("True");
+            }
+            else
+            {
+                Console.WriteLine("False");
+            }
+            if (num1 < num2)
+            {
+                Console.WriteLine("True");
+            }
+            else
+            {
+                Console.WriteLine("False");
+            }
+            if (num1 >= num2 )
+            {
+                Console.WriteLine("True");
+            }
+            else 
+            {
+                Console.WriteLine("False");
+            }
+            if (num1 <= num2)
+            {
+                Console.WriteLine("True");
+            }
+            else
+            {
+                Console.WriteLine("False");
+            }
+        
+    
+            }
+        }
+    }
